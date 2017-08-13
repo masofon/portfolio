@@ -136,6 +136,8 @@ li {
 .textbg {
 	background-color: #333333;
 	width:100%;
+	position: relative;
+    z-index: 3;
 }
 
 .nb {
