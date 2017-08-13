@@ -1,0 +1,393 @@
+@import url('http://weloveiconfonts.com/api/?family=entypo');
+
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** RESET END **/
+
+.container {
+	max-width: 1680px;
+	position: relative;
+}
+
+/**Masonry**/
+
+.masonry { /* Masonry container */
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    column-gap: 0;
+    width:100%;
+    background-color: #333333;
+}
+
+.item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    width: 100%;
+}
+
+.item img:hover {
+      opacity: 1;
+      }
+
+.item img {
+	width: 100%;
+	opacity: 0.95;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+
+
+
+/**Masonry End**/
+
+/**Text Styles**/
+
+h1 {
+	font-family: Lora, serif;
+	font-size: 4em;
+	color:#EBEBEB;
+	font-weight: 400;
+	font-style: italic;
+	padding: 20px 0 15px 0;
+}
+
+h2 {
+	font-family: Lora, serif, italic;
+	font-size: 2.8em;
+	color:#e499cb;
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+
+p {
+	font-family: open sans, sans serif;
+	font-size: 0.8em;
+	color: white;
+	margin: 20px 0 20px 0;
+	line-height: 1.5em;
+}
+
+li {
+	font-family: open sans, sans serif;
+	font-size: 0.8em;
+	color: white;
+	line-height: 1.5em;
+}
+
+.header p {
+	text-align: center;
+}
+
+
+/**Area styles**/
+
+.textbg {
+	background-color: #333333;
+	width:100%;
+}
+
+.nb {
+	width: 25%;
+	padding:50px;
+}
+
+.header {
+	background:  linear-gradient(200deg,
+      rgba(225, 66, 172, 0.85), 
+      rgba(14, 56, 92, 0.85)
+    ),
+    url(img/bgimg.jpg) no-repeat left top;
+	background-size: cover;
+	height: 820px;
+	width:100%;
+	position: relative;
+}
+
+.peeps {
+	background:  linear-gradient(200deg,
+      rgba(225, 66, 172, 0.85), 
+      rgba(14, 56, 92, 0.85)
+    ),
+    url(img/bgimg.jpg) no-repeat left top;
+	background-size: cover;
+	width:100%;
+}
+
+.list {
+	width: 60%;
+	float:left;
+}
+
+.list-content {
+	padding:50px;
+}
+
+.quote-content {
+	padding: 375px 50px 50px 50px;
+
+}
+
+.list-cols {
+	padding-top:25px;
+	-moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+    column-gap: 0;
+    width:100%;
+}
+
+.quote {
+	width:40%;
+	float:right;
+}
+
+.bio {
+	background-color: #333333;
+	width: 100%;
+}
+
+
+.head-txt {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+.head-content {
+	text-align: center;
+}
+
+
+.info {
+	text-align:center;
+}
+
+#talk {
+	width:100%;
+	max-width:1680px;
+	margin:0 auto;
+	overflow:auto;
+	background-color:#333333;
+}
+
+.grid_container { 
+	width: 100%; 
+	padding-top: 7%;
+	margin: 0 auto; 
+	clear: both; }
+	
+/* CIRCLE SOCIAL */
+
+.social {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 5% 7% 5%;
+  line-height: 52px;
+  font-family: Entypo;
+  font-size: 24px;
+  text-align: center;
+  color: #ebebeb;
+  border-radius: 50%;
+  border: 2px solid #ebebeb;
+  overflow: hidden;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.social:hover {
+  background:#ebebeb;
+  color: #333333;
+  border: 2px solid #ebebeb;
+  cursor: pointer;
+}
+/* CIRCLE END */
+	
+	
+.header .button {
+	margin-top: 600px;
+}
+
+.button {
+	-webkit-border-top-left-radius:42px;
+	-moz-border-radius-topleft:42px;
+	border-top-left-radius:42px;
+	-webkit-border-top-right-radius:42px;
+	-moz-border-radius-topright:42px;
+	border-top-right-radius:42px;
+	-webkit-border-bottom-right-radius:42px;
+	-moz-border-radius-bottomright:42px;
+	border-bottom-right-radius:42px;
+	-webkit-border-bottom-left-radius:42px;
+	-moz-border-radius-bottomleft:42px;
+	border-bottom-left-radius:42px;
+	border: 2px solid #FDFDFD;
+	display:inline-block;
+	color:#FDFDFD;
+	font-family: Open sans, sans-serif;
+	font-size:0.8em;
+	text-transform:uppercase;
+	height:60px;
+	line-height:60px;
+	letter-spacing: 1.5px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	margin:-3% 2% 9% 2%;
+		-webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.button:hover {
+	background-color:#E8E8E8;
+	color: #7c6092;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+    
+        .list {
+	    width:100%;
+	    float:none;
+    }
+    .quote {
+	    width:100%;
+	    float:none;
+    }
+    
+    .list-cols {
+	    -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+    
+    .quote-content {
+	padding: 50px;
+	}
+	
+	.nb {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 399px) {
+    .masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+    .list {
+	    width:100%;
+	    float:none;
+    }
+    .quote {
+	    width:100%;
+	    float:none;
+    }
+    
+    .list-cols {
+	    -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+    
+    .quote-content {
+	padding: 50px;
+	}
+	
+	.nb {
+		width:70%;
+	}
+	
+	h1 {
+		font-size: 3em;
+	}
+	
+	.header {
+		height: 600px;
+	}
+	
+	.header .button {
+	margin-top: 400px;
+	}
+}
+
+.subtitle {
+	position: fixed;
+	top: 30px;
+	left: 50px;
+	text-transform: uppercase;
+	z-index: 2;
+}
+
+
